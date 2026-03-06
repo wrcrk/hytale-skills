@@ -6,3 +6,10 @@ build/
 *.log
 .gemini/tmp/
 .vscode/
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Java
+*.class

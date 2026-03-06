@@ -1,4 +1,4 @@
-yaml
+---
 name: hytale-npc-modding
 description: Use this skill for creating, defining behaviors (AI), stats, and models for NPCs in Hytale.
 ---

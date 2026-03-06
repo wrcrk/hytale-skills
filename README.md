@@ -1,6 +1,16 @@
 # Hytale Modding Skills
 
+![Java 25](https://img.shields.io/badge/Java-25-orange.svg)
+![License](https://img.shields.io/github/license/wrcrk/hytale-skills)
+
 A collection of structured, domain-specific modules and technical references designed to guide AI agents in developing Hytale mods. This repository provides instructions, mandates, and examples for various aspects of Hytale's modding API, focusing on Java-based server-side development and data-driven configuration.
+
+## Table of Contents
+- [Installation](#installation)
+- [Project Structure](#project-structure)
+- [Key Technical Mandates](#key-technical-mandates)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
 
 ## Installation
 
@@ -14,20 +24,13 @@ npx skills add wrcrk/hytale-skills/<module-name>
 
 The project is organized into several "skill" modules. You can install them individually:
 
-- **`hytale-project-setup`**: Standards for Hytale mod directory structures and Gradle configurations.
-  - `npx skills add wrcrk/hytale-skills/hytale-project-setup`
-- **`hytale-ecs-core`**: Core Entity Component System (ECS) principles, component definitions, and system architectures.
-  - `npx skills add wrcrk/hytale-skills/hytale-ecs-core`
-- **`hytale-server-logic`**: Server-side event handling, plugin lifecycles, and backend logic patterns.
-  - `npx skills add wrcrk/hytale-skills/hytale-server-logic`
-- **`hytale-npc-modding`**: NPC definition (JSON), AI behavior trees, and model configurations.
-  - `npx skills add wrcrk/hytale-skills/hytale-npc-modding`
-- **`hytale-custom-ui`**: Development of custom user interfaces using Hytale's UI markup and styling systems.
-  - `npx skills add wrcrk/hytale-skills/hytale-custom-ui`
-- **`hytale-interactions-media`**: Interaction frameworks, sound systems, and media handling.
-  - `npx skills add wrcrk/hytale-skills/hytale-interactions-media`
-- **`hytale-world-gen`**: Procedural world generation, biome configuration, and the prefab placement system.
-  - `npx skills add wrcrk/hytale-skills/hytale-world-gen`
+- **[`hytale-project-setup`](./hytale-project-setup)**: Standards for Hytale mod directory structures and Gradle configurations.
+- **[`hytale-ecs-core`](./hytale-ecs-core)**: Core Entity Component System (ECS) principles, component definitions, and system architectures.
+- **[`hytale-server-logic`](./hytale-server-logic)**: Server-side event handling, plugin lifecycles, and backend logic patterns.
+- **[`hytale-npc-modding`](./hytale-npc-modding)**: NPC definition (JSON), AI behavior trees, and model configurations.
+- **[`hytale-custom-ui`](./hytale-custom-ui)**: Development of custom user interfaces using Hytale's UI markup and styling systems.
+- **[`hytale-interactions-media`](./hytale-interactions-media)**: Interaction frameworks, sound systems, and media handling.
+- **[`hytale-world-gen`](./hytale-world-gen)**: Procedural world generation, biome configuration, and the prefab placement system.
 
 ## Key Technical Mandates
 
